@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,8 +12,12 @@ namespace CsharpJikken
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello " + DateTime.Now);
-            File.WriteAllText("hoge.txt", "world + " + DateTime.Now + "\n");
+            string json = JsonConvert.SerializeObject(
+                new { message = "hello", time = DateTime.Now },
+                Formatting.Indented
+            );
+            Console.WriteLine(json);
+            File.WriteAllText("hoge.txt", json);
         }
     }
 }
