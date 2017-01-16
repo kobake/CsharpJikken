@@ -1,5 +1,5 @@
 # CsharpJikken
-Visual Studio 2015 のプロジェクトを Linux 上の mono で実行できるか試すための実験場。
+Visual Studio 2015 のプロジェクトを Linux 上の mono や dotnet で実行できるか試すための実験場。
 
 ## Requirements
 - mono or Visual Studio
