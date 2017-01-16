@@ -2,7 +2,7 @@
 Visual Studio 2015 のプロジェクトを Linux 上の mono や dotnet で実行できるか試すための実験場。
 
 ## Requirements
-- mono or Visual Studio
+- mono, .NET Core, or Visual Studio
 
 ## How to build and launch by mono
 ```
