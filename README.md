@@ -6,10 +6,12 @@ Visual Studio 2015 のプロジェクトを Linux 上の mono で実行できる
 
 ## How to build by mono
 ```
-$ xbuild ./CsharpJikken.sln
+$ wget https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+$ mono nuget.exe restore CsharpJikken.sln
+$ xbuild CsharpJikken.sln
 ```
 
-## How to launch by mono
+## How to launch .exe file by mono
 ```
-$ mono ./CsharpJikken/bin/Debug/CsharpJikken.exe
+$ mono CsharpJikken/bin/Debug/CsharpJikken.exe
 ```
