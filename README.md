@@ -11,7 +11,7 @@ $ mono nuget.exe restore CsharpJikken.sln
 $ xbuild CsharpJikken.sln
 ```
 
-## How to launch .exe file by mono
+## How to launch executable file (building result) by mono
 ```
 $ mono CsharpJikken/bin/Debug/CsharpJikken.exe
 ```
