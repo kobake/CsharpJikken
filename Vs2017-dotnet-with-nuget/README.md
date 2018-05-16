@@ -1,5 +1,5 @@
 # Vs2017-dotnet-with-nuget
-Visual Studio 2015 のプロジェクトを Linux 上の mono で実行できるか試すための実験場。
+Visual Studio 2017 のプロジェクトを Linux 上の dotnet で実行できるか試すための実験場。
 
 ## How to build and launch by dotnet
 ### Setup dotnet
