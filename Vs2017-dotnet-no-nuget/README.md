@@ -1,4 +1,4 @@
-# Vs2015-no-nuget
+# Vs2017-dotnet-no-nuget
 Visual Studio 2017 の .NET Core プロジェクトを Linux 上の dotnet で実行できるか試すための実験場。
 
 ## How to build and launch by dotnet
